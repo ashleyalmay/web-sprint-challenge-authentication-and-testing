@@ -1,0 +1,11 @@
+1.Differences between using sessions or JSON Web Tokens for authentication.
+    -Sessions are the cookies and the only works for one domain and Json tokens is not limited to one domain because they are stored in the request header. 
+
+2.What does bcrypt do to help us store passwords in a secure manner.
+    -well bcrypt helps us slow down the hash speed also checks the password to see if its the same
+
+3.How are unit tests different from integration and end-to-end testing.
+    -E2E (end-to-end) testing is a type of functional test. Unlike a unit test, you're not breaking the application down into smaller parts in order to test it - you're testing the entire application. E2E tests interact with your app just like a real user would.
+
+4.How Test Driven Development changes the way we write applications and tests.
+    -we writes test so we can make sure are code is working right. Also helps write cleaner code.
